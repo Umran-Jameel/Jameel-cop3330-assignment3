@@ -1,0 +1,10 @@
+@startuml
+class Exercise45 {
++main(String[] args)
+}
+class Replace {
++replaceUtilize(ArrayList<String> arr)
+}
+
+Exercise45 -- Replace
+@enduml

@@ -1,0 +1,9 @@
+Start
+    Ask user for name of website and author and if they want a JavaScript and/or CSS folder
+    Create a directory with the name of the website
+    Create an html file with the name of the website and the author name
+    if : user wants a JavaScript folder
+        create a JavaScript folder
+    if : user wants a css folder
+        create a css folder
+End

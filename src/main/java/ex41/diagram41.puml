@@ -1,0 +1,10 @@
+@startuml
+class Exercise1 {
++main(String[] args)
+}
+class AlphabetizeNames {
++sortNames(File input)
+}
+
+Exercise1 -- AlphabetizeNames
+@enduml

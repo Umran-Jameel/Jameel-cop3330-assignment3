@@ -1,0 +1,20 @@
+Start
+    Loop
+        read file and add each word to an arraylist
+    End Loop
+    Loop
+        if : element of the array is badger
+            increment badger int variable by 1
+        else if : element of the array list is mushroom
+            increment int mushroom by 1
+        else
+            increment snake int variable by 1
+    End Loop
+    Add the integer amounts to an array list
+    Loop
+        Print the word
+        Loop
+            Print a * beased on the quantity of each word
+        End Loop
+    End Loop
+End

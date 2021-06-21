@@ -1,0 +1,9 @@
+Start
+    Read from the input file
+    Store the input test into an list
+    Sort the list
+    Loop
+        Print element of list into output file
+    End Loop
+    Close output file
+Stop

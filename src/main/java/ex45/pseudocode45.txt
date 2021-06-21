@@ -1,0 +1,17 @@
+Start
+    Loop
+        read from the file and store word in Array List
+    End Loop
+    Loop
+        if : element of array list is "utilize"
+            replace with "use"
+        else if : element of array list is utilize
+            replace with use
+        else if : element of array list is utilizes
+            replace with uses
+    End Loop
+    Loop
+        append element of array list to return string
+    End Loop
+    Write the resulting string into output file
+End

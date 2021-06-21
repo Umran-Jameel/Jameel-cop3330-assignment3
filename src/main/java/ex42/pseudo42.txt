@@ -1,0 +1,40 @@
+Start
+    read from the input file
+    Loop
+        Loop
+            if : character is a digit
+                add it to temp array
+        End Loop
+        Loop
+            add character to string that is being built
+        End Loop
+    End Loop
+    Loop
+        Loop
+            if : the character is a comma
+                Loop
+                    if : next character is a comma
+                        break from loop
+                    else :
+                        add to temp array
+                End Loop
+            else :
+                continue
+        End Loop
+        Loop
+            add character from temp array to string that is being built
+        End Loop
+    End Loop
+    Loop
+        Loop
+            if : character is a comma
+                break
+            else :
+                add character to temp array
+        End Loop
+        Loop
+            add character from temp array to string that is being built
+        End Loop
+    End Loop
+    Print out the data into a table format
+End

@@ -1,0 +1,13 @@
+@startuml
+class Exercise43 {
++main(String[] args)
+}
+class WebsiteGenerator {
++directory(String name)
++indexFile(String name, String author)
++jsFolder(String name)
++cssFolder(String name)
+}
+
+Exercise43 -- WebsiteGenerator
+@enduml

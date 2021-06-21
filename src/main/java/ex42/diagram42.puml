@@ -1,0 +1,12 @@
+@startuml
+class Exercise42 {
++main(String[] args)
+}
+class Parser {
++salaries(File input)
++firstNames(File input)
++lastNames(File input)
+}
+
+Exercise42 -- Parser
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+class Exercise46 {
++main(String[] args)
+}
+class Frequency {
++wordsFrequency(ArrayList<String> arr)
+}
+
+Exercise46 -- Frequency
+@enduml
